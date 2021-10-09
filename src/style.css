@@ -1,1 +1,26 @@
-/* styles go here */
+/* I have no idea why BackstopJS Report 
+doesn't approve this way of implementing.*/
+/* .main-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-form__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-form__btn {
+  align-self: flex-start;
+} */
+
+/* So I had to do it with margin */
+.main-form__fieldset {
+  margin-bottom: 20px;
+}
+
+.input-container:not(:last-child) {
+  margin-bottom: 10px;
+}
