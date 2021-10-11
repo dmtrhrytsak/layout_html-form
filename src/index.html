@@ -14,7 +14,6 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="GET"
-      autocomplete="off"
       onsubmit="onSubmit()"
       class="main-form"
     >
@@ -27,6 +26,7 @@
             type="text"
             id="surname"
             name="surname"
+            autocomplete="off"
           >
         </div>
 
@@ -36,6 +36,7 @@
             type="text"
             id="name"
             name="name"
+            autocomplete="off"
           >
         </div>
 
@@ -91,6 +92,7 @@
             id="password"
             name="password"
             minlength="8"
+            maxlength="16"
             required
           >
         </div>
@@ -177,8 +179,7 @@
         </div>
       </fieldset>
 
-      <button
-        type="submit"
+      <button type="submit">
           Submit
       </button>
     </form>
